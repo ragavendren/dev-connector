@@ -7,8 +7,8 @@ const connectDB = async () => {
 try {
     await mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser: true 
     });
-    ;
-    console.log('Connected with Mango DB');
+    
+    console.log('MangoDB Connected...');
 } catch (err) {
     console.error(err.message);
     process.exit(1);
