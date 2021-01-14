@@ -8,7 +8,7 @@ try {
     await mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser: true 
     });
     
-    console.log('MangoDB Connected...');
+    console.log('MangoDB Connected');
 } catch (err) {
     console.error(err.message);
     process.exit(1);
