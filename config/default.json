@@ -1,4 +1,3 @@
 {
-/* mongoDB Connection string */
     "mongoURI" : "mongodb+srv://ragav123:ragav123@devconnector.yytji.mongodb.net/DevConnector?retryWrites=true&w=majority"
 }
